@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #032B44; 
+  }
+  .heading {
+    color: #FFFFFF; 
+    background-color: #032B44; 
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #1A76D2; 
+  }
+  
+  
+  .subheading {
+    color: #FFFFFF; 
+    background-color: #1A76D2; 
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .course-info, .public-speaking, .ielts {
+    background-color: lightblue; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .level {
+    font-weight: bold;
+    color: #0b53be; 
+  }
+  
+  .description {
+    color: black; 
+  }
+  
+  .benefit {
+    color:#ADD8E6 
+    ;
+    font-style: italic;
+
+  }
+
+
+  /* Header Styles */
+header {
+  background-color: #0779e4;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
